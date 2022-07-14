@@ -6,13 +6,12 @@ In this repository, I have implemented how Detectron2 can be used in the field o
 ### What is Detecron 2?
 Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of Detectron and maskrcnn-benchmark. It supports a number of computer vision research projects and production applications in Facebook.
 
-Before moving on with the implementation, please setup workspace by installing required dependancies.
+Before moving on with the implementation, please setup workspace by installing required dependancies. So, open up jupyter notebook, start a python kernel and proceed with below instructions.
 First install detectron2's dependancies:
 ```python
 !pip install cython pyyaml==5.1
 !pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 ```
-
 Then install Detectron2, detectron2-ResNeSt, centermask2, etc:
 ```python
 %cd /content/
@@ -25,7 +24,6 @@ Then install Detectron2, detectron2-ResNeSt, centermask2, etc:
 ```python
 %cd /content/
 !python -m pip install 'git+https://github.com/zhanghang1989/detectron2-ResNeSt.git'
-import detectron2
 
 %cd /content/
 !git clone https://github.com/zhanghang1989/detectron2-ResNeSt
